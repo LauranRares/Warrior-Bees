@@ -1,0 +1,125 @@
+.playPage {    
+    height: 570px;
+    background-color: #ffcc80;
+    text-align:center;
+    position:relative;
+}
+
+.playTop {
+    background-color: #ffa31a;
+    border: ridge #f6850a;
+    border-radius: 0px 0px 10px 10px;
+    border-width: 0px 5px 5px 5px; 
+    height:80px;
+    margin-left:100px;
+    width:800px;
+}
+.playTop p{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+    float:left;
+    margin:15px;
+    margin-left:100px;
+    padding:5px;
+}
+
+.playMap {
+    height:350px;
+    width:650px;
+    margin-top:10px;
+    position:relative;
+}
+
+.hexagon {
+    width:300px;
+    height:300px;
+    position:absolute;
+}
+.hexagon polygon{
+    fill:white;
+}
+
+.soldierBee {
+    height:50px;
+    width:80px;
+    z-index: 1;
+    position:absolute;
+}
+
+.numbersBee p{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    z-index: 1;
+    position:absolute;
+}
+
+.playBot {
+    background-color:#ffa31a;
+    border: ridge #f6850a;
+    border-radius: 10px 10px 0px 0px;
+    border-width: 5px 5px 0px 5px; 
+    margin-top:10px;
+    height:111px;
+    margin-left:225px;
+    width:550px;
+    position:relative;
+}
+.playBot p {
+    background-color:#ffcc80;
+    border: ridge #f6850a;
+    border-radius: 10px 10px 0px 0px;
+    border-width: 5px 5px 0px 5px; 
+    margin-top: 48px;
+    height:60px;
+    margin-left:230px;
+    width:80px;
+    position:absolute;
+}
+
+.playBot img{
+    height: 50px;
+    width: 50px;
+    left:245px;
+    position:absolute;
+}
+.playBot span {
+    position:absolute;
+    z-index: 1;
+}
+.playBot b {
+    font-size:50px;
+    position:absolute;
+}
+
+.playBtn {
+    font-family: "Fancy Bees";
+    font-size: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    height:100px;
+    width:150px;
+    position:absolute;
+}
+
+.music2 {
+    margin-left: 930px;
+    margin-top: -65px;
+    position:absolute;
+}
+.music2 span {
+    font-size:50px;
+    position:absolute;
+}
+
+.playBtn:hover, .music2:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.soldierBee:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
