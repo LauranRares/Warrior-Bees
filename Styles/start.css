@@ -1,0 +1,95 @@
+body {
+    background-image: url("../Images/honeyBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 250px;
+    margin-top: 70px;
+    height: 570px;
+    width: 1008.5px;
+    border: ridge #f6850a;
+    border-radius: 10px;
+    border-width: 5px;  
+}
+
+.startPage {
+    font-family: "Fancy Bees";
+    font-size: 50px;
+    height: 570px;
+    background-image: url("../Images/startBackgr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    position:relative;
+}
+
+.startPage h1{
+    font-size: 120px;
+}
+
+.startPage img{
+    width:300px;
+    position:absolute;
+}
+
+.chooseColorForm {
+    margin-top: 40px;
+    margin-left: 350px;
+    position:absolute;
+}
+
+.chooseColorForm label {
+    float:left;
+    margin: 10px;
+}
+
+.chooseColorForm p {
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.chooseColorBtn {
+    margin-left: -260px;
+    top:130px;
+    font-family: "Fancy Bees";
+    font-size: 50px;
+    background-color: #f6850a;
+    border: 5px solid black;
+    border-radius: 10px;
+    position:absolute;
+}
+
+.startPage h4{
+    font-size: 30px;
+    font-style: italic;
+    top:500px;
+    left:400px;
+    position:absolute;
+}
+
+.music1 {
+    margin-left:930px;
+    margin-top: 350px;
+    position:absolute;
+}
+
+.musicPlay {
+    margin-left:880px;
+    margin-top: 350px;
+    position:absolute;
+}
+
+.music1 span, .musicPlay span {
+    font-size:50px;
+}
+
+.chooseColorForm p:hover, .chooseColorBtn:hover, .music1:hover, .musicPlay:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.chooseColorForm input:checked + p{   
+    box-shadow: 0 0 0 4px black;
+}

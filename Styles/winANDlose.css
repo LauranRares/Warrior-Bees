@@ -1,0 +1,79 @@
+.winPage {
+    height: 570px;
+    background-image: url("../Images/startBackgr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    position:relative;
+}
+
+.winPage h1{
+    font-family: "Fancy Bees";
+    font-size: 100px;
+    position: sticky;
+    z-index: 1;
+}
+
+.winPage img{
+    left:370px;
+    width:300px;
+    position:absolute;
+}
+
+.music3 {
+    margin-left: 930px;
+    margin-top: -100px;
+    z-index: 1;
+    position:absolute;
+}
+.music3 span {
+    font-size:50px;
+    position:absolute;
+}
+
+.losePage {
+    height: 570px;
+    background-image: url("../Images/startBackgr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    position:relative;
+}
+
+.losePage h1{
+    font-family: "Fancy Bees";
+    font-size: 100px;
+}
+
+.losePage img{
+    left:300px;
+    width:400px;
+    position:absolute;
+}
+
+.music4 {
+    margin-left: 930px;
+    margin-top: -100px;
+    position:absolute;
+}
+.music4 span {
+    font-size:50px;
+    position:absolute;
+}
+
+.playAgain {
+    font-family: "Fancy Bees";
+    font-size: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color:#9ab106;
+    top:470px;
+    left:410px;
+    z-index: 1;
+    position:absolute;
+}
+
+.playAgain:hover, .music3:hover, .music4:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
